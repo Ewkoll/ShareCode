@@ -23,3 +23,10 @@ Permission denied (publickey).
 fatal: Could not read from remote repository.
 
 出现这样错误原因，SSH的Key没有的仓库内建立。
+
+git config --global user.name "yourname"
+git config --global user.email "youremail"
+
+ssh-keygen -t rsa -C ""
+Your identification has been saved /.ssh/id_rsa.
+Your public key has been saved in /.ssh/id_rsa.pub
