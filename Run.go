@@ -10,6 +10,8 @@ import(
 )
 
 func main() {
+    fmt.Println(Sqrt2(2), Sqrt2Other(2), math.Sqrt(2));
+    
     var i int;
     i = 10;
     j:= 11;

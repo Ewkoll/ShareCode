@@ -27,6 +27,6 @@ fatal: Could not read from remote repository.
 git config --global user.name "yourname"
 git config --global user.email "youremail"
 
-ssh-keygen -t rsa -C ""
+ssh-keygen -t rsa -C "Email Address"
 Your identification has been saved /.ssh/id_rsa.
 Your public key has been saved in /.ssh/id_rsa.pub
